@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+body {
+  background-color: #338cf4;
+}
+.container {
+  /* background-color: #ffffff; */
+  /* width: 190vmin; */
+  width: 80%;
+  height: 100vh;
+  /* padding: .125rem 1.875rem; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; 
+  /* border-radius: 0.625rem; */
+  /* box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2); */
+  /* padding: auto; */
+  margin: 2%;
+
+}
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+button {
+  height: 1.75rem;
+  width: 1.75rem;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  color: #020929;
+  flex-wrap: wrap;
+}
+select {
+  padding: 0.438rem;
+  border: 1px solid #020929;
+  border-radius: 3px;
+}
+.options label,
+.options select {
+  font-family: "Poppins", sans-serif;
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 40px;
+  height: 28px;
+  border: none;
+  cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
+}
+input[type="color"]::-moz-color-swatch {
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
+}
+#text-input-intro {
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 30vh;
+  width: 48%;
+  float:left;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-affi{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 30vh;
+  width: 48%;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: auto;
+
+}
+#text-input-body{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 30vh;
+  width: 48%;
+  float:left;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-res{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 30vh;
+  width: 48%;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-auth-name{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 10vh;
+  width: 48%;
+  float:left;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-email{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 10vh;
+  width: 48%;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-coauth-name{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 10vh;
+  width: 48%;
+  float:left;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-article-name{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 10vh;
+  width: 48%;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-abstract{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 25vh;
+  width: 48%;
+  float:left;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-conclution{
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 25vh;
+  width: 48%;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+#text-input-reference{
+  margin-top: 0.630 rem;
+  margin-left: 28%;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 20vh;
+  width: 47%;
+  float: left;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+.active {
+  background-color: #e0e9ff;
+}
+.auth{
+  text-align:right;
+  margin-top:-5mm;
+  position: relative;
+}
+.intro{
+  text-align: left;
+  position: relative;
+}
+.ref{
+  /* text-align:center; */
+  margin-left: 1rem;
+  text-align: center;
+  margin-top: 10rem ;
+}
